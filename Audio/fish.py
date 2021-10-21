@@ -3,7 +3,7 @@
 from gtts import gTTS
 
 # The text that you want to convert to audio
-string = """Bienvenue à Essence de Lahore, Je suis votre "virtual waiter"! Je vais vous donner des informations sur notre food truck. Nous servons une cuisine traditionnelle Lahori. Cliquez sur les boutons pour en savoir plus!"""
+string = """Le poisson frit Lahori est notre deuxième délice ! Le plat est du saumon frit trempé dans un mélange salé. Il est servi avec une sauce piquante et garni d'épices! Délicieux!"""
 
 # Language in which you want to convert
 language = 'fr'
@@ -16,4 +16,4 @@ myobj = gTTS(text=string, lang=language, slow=False)
 
 # Saving the converted audio in a mp3 file named
 # welcome
-myobj.save("bonjour.mp3")
+myobj.save("fish.mp3")
